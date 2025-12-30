@@ -1,12 +1,13 @@
 /** @type {import('prettier').Config} */
 
 export default {
-  trailingComma: "none",
+  trailingComma: "es5",
   tabWidth: 4,
   useTabs: true,
   semi: false,
   singleQuote: true,
   jsxSingleQuote: true,
+  endOfLine: "lf",
   arrowParens: "avoid",
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
