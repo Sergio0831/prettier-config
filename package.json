@@ -1,0 +1,26 @@
+{
+  "name": "@icinema/core",
+  "version": "1.0.0",
+  "description": "Core utilities and shared setup for the iCinema project",
+  "type": "module",
+  "license": "ISC",
+  "author": {
+    "name": "Serz",
+    "email": "serz.ivko@yahoo.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+  },
+  "exports": {
+    "./prettier": "./src/prettier.config.mjs"
+  }
+}
