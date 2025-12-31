@@ -2,8 +2,8 @@ name: Publish Package
 
 on:
   push:
-    tags:
-      - "v*.*.*"
+    branches:
+      - main
 
 jobs:
   publish:
@@ -21,6 +21,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: Publish package
-        run: npm publish --access public
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
