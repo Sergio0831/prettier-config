@@ -11,9 +11,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "src"
-  ],
   "peerDependencies": {
     "prettier": "^3.0.0"
   },
