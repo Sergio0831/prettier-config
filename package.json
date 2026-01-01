@@ -1,6 +1,6 @@
 {
   "name": "@icinema/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Core utilities and shared setup for the iCinema project",
   "type": "module",
   "license": "ISC",
