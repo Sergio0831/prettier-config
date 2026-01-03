@@ -1,6 +1,6 @@
 {
   "name": "@ivko/prettier-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A shared Prettier configuration for consistent code formatting across projects.",
   "type": "module",
   "license": "ISC",
