@@ -1,9 +1,33 @@
-# @icinema/core
+# @ivko/prettier-config
 
-Core utilities and shared setup for the **iCinema** project.
+A shared **Prettier configuration** for consistent code formatting across projects.
 
 ## Installation
 
+### npm
+
 ```bash
-npm install @icinema/core
+npm install -D @ivko/prettier-config
+```
+
+### yarn
+
+```bash
+yarn add -D @ivko/prettier-config
+```
+
+### pnpm
+
+```bash
+pnpm add -D @ivko/prettier-config
+```
+
+## Usage
+
+Create a `prettier.config.ts` file in your project root:
+
+```ts
+import config from "@ivko/prettier-config/prettier";
+
+export default config;
 ```

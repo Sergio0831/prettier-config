@@ -1,13 +1,18 @@
 {
-  "name": "@icinema/core",
+  "name": "@ivko/prettier-config",
   "version": "1.0.4",
-  "description": "Core utilities and shared setup for the iCinema project",
+  "description": "A shared Prettier configuration for consistent code formatting across projects.",
   "type": "module",
   "license": "ISC",
   "author": {
     "name": "Serz",
     "email": "serz.ivko@yahoo.com"
   },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "formatting"
+  ],
   "publishConfig": {
     "access": "public"
   },
