@@ -24,7 +24,7 @@ pnpm add -D @ivko/prettier-config
 
 ## Usage
 
-Create a `prettier.config.ts` file in your project root:
+Create a `prettier.config.mjs` file in your project root:
 
 ```ts
 import config from "@ivko/prettier-config/prettier";
